@@ -20,7 +20,7 @@
             android:background="@android:color/white"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Name your task"
+            android:hint="Nama Task"
             android:inputType="text" />
 
         <View
@@ -34,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="Choose Category"
+        android:text="Pilih Kategori"
         android:textAppearance="@android:style/TextAppearance.Medium"
         android:textColor="@color/gray" />
 
@@ -45,7 +45,7 @@
         android:layout_marginTop="15dp"
         android:drawableStart="@drawable/ic_circle_orange"
         android:drawablePadding="5dp"
-        android:text="Work" />
+        android:text="Kerja" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -54,7 +54,7 @@
         android:drawableStart="@drawable/ic_circle_purple"
         android:drawablePadding="5dp"
         android:id="@+id/personal"
-        android:text="Personal" />
+        android:text="Pribadi" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -63,13 +63,13 @@
         android:drawableStart="@drawable/ic_circle_blue"
         android:drawablePadding="5dp"
         android:id="@+id/health"
-        android:text="Health" />
+        android:text="Kesehatan" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="Write Short description"
+        android:text="Deskipsi"
         android:textAppearance="@android:style/TextAppearance.Medium"
         android:textColor="@color/gray" />
 
@@ -85,7 +85,7 @@
             android:id="@+id/editTextDescription"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="message..."
+            android:hint="Pesan..."
             android:gravity="top"
             android:layout_marginTop="10dp"
             android:layout_marginStart="15dp"
@@ -105,7 +105,7 @@
         android:layout_height="wrap_content"
         android:textColor="@android:color/white"
         android:background="@color/orange"
-        android:text="Save Task"
+        android:text="Simpan"
         android:id="@+id/addTask"
         />
 </LinearLayout>

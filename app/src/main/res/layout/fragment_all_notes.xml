@@ -43,7 +43,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Your Tasks List is Empty"
+            android:text="Task List Mu Kosong"
             android:textColor="@android:color/black"
             android:textSize="22sp"
             android:textStyle="bold"
@@ -58,7 +58,7 @@
             android:padding="18dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
-            android:text="Go ahead and add your tasks and work on it to finish them"
+            android:text=""
             android:textSize="18sp" />
     </LinearLayout>
 

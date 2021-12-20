@@ -33,22 +33,21 @@
             android:id="@+id/text_view_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:maxLines="1"
-            android:textSize="22dp"
-            android:textStyle="bold"
             android:layout_alignParentLeft="true"
-            android:ellipsize="end"
             android:layout_marginStart="15dp"
-            android:text="Title"
             android:layout_marginTop="10dp"
-            />
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Judul"
+            android:textSize="22dp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/text_view_description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/text_view_title"
-            android:text="Description"
+            android:text="Deskripsi"
             android:layout_marginTop="10dp"
             android:layout_marginStart="15dp"
             />
@@ -61,7 +60,7 @@
             android:layout_marginTop="10dp"
             android:drawableStart="@drawable/ic_circle_orange"
             android:drawablePadding="5dp"
-            android:text="Work" />
+            android:text="Kerjaan" />
 
     </RelativeLayout>
 
